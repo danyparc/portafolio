@@ -1,0 +1,47 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+ background-color: blueviolet; 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-direction: column;
+}
+
+nav h1{
+  color: white;
+  margin-left: 32px;
+}
+
+nav .menu{
+  display: flex;
+  min-width: 40%;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){ 
+ 
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media  (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  nav{
+    flex-direction: row;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
